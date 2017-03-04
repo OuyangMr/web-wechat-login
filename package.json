@@ -1,7 +1,7 @@
 {
-  "name": "auto-wechat-login",
+  "name": "web-wechat-login",
   "version": "1.0.0",
-  "description": "A middleware for wechat login open API",
+  "description": "A easy API for web wechat login ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +15,10 @@
     "weixin",
     "wx",
     "login",
+    "web-login",
     "wechat-login",
-    "auto"
+    "web-wechat-login",
+    "web"
   ],
   "author": "OneMirror",
   "license": "ISC",
