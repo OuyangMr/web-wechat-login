@@ -1,0 +1,30 @@
+{
+  "name": "auto-wechat-login",
+  "version": "1.0.0",
+  "description": "A middleware for wechat login open API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OuyangMr/weLogin.git"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "wx",
+    "login",
+    "wechat-login",
+    "auto"
+  ],
+  "author": "OneMirror",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OuyangMr/weLogin/issues"
+  },
+  "homepage": "https://github.com/OuyangMr/weLogin#readme",
+  "dependencies": {
+    "request": "^2.80.0"
+  }
+}
