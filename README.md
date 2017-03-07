@@ -35,7 +35,7 @@ router.get('/wecaht/login', function (req, res) {
 ```javascript
 var loginUrl = wechat.loginUrl();
 ```
-++注：若提示“**redirect_uri 参数错误**”，请检查参数是否填写错误，如`callbackUrl`的域名与审核时填写的授权域名不一致。++
+*注：若提示“**redirect_uri 参数错误**”，请检查参数是否填写错误，如`callbackUrl`的域名与审核时填写的授权域名不一致。*
 
 #### wechat.authorize(req , res);
 用于Express的路由routes下，请自定义页面请求地址，手机访问后自动重定向到微信授权页面。
@@ -104,7 +104,7 @@ country | 国家，如中国为CN
 headimgurl | 用户头像，最后一个数值代表正方形头像大小（有0、46、64、96、132数值可选，0代表640*640正方形头像），用户没有头像时该项为空
 privilege | 用户特权信息，json数组，如微信沃卡用户为（chinaunicom）
 unionid | 用户统一标识。针对一个微信开放平台帐号下的应用，同一用户的unionid是唯一的。
-> ==建议：开发者最好保存用户unionID信息，以便以后在不同应用中进行用户信息互通。==
+> 建议：开发者最好保存用户**unionID**信息，以便以后在不同应用中进行用户信息互通。
 
 错误的Json返回示例:
 
