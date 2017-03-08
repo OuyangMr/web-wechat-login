@@ -2,7 +2,8 @@
 
 > 用于web网站实现微信签名和微信登陆的一个node模块，该模块最初开发为在`express`中使用，如需在其他平台使用，可与本人取得联系。
 
-[![npm version](https://img.shields.io/npm/v/jquery-weui.svg)](https://www.npmjs.com/package/web-wechat-login)
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
 
 ### 安装
 ```javascript
