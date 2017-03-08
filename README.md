@@ -2,6 +2,8 @@
 
 > 用于web网站实现微信签名和微信登陆的一个node模块，该模块最初开发为在`express`中使用，如需在其他平台使用，可与本人取得联系。
 
+[![npm version](https://img.shields.io/npm/v/jquery-weui.svg)](https://www.npmjs.com/package/web-wechat-login)
+
 ### 安装
 ```javascript
 npm install --save web-wechat-login
@@ -26,7 +28,7 @@ var wechat = new webLogin({
 示例如下:
 ```javascript
 /* GET wechat login page. */
-router.get('/wecaht/login', function (req, res) {
+router.get('/wechat/login', function (req, res) {
     wechat.login(req, res);
 });
 ```
@@ -42,7 +44,7 @@ var loginUrl = wechat.loginUrl();
 示例如下:
 ```javascript
 /* GET wechat authorize page. */
-router.get('/wecaht/authorize', function (req, res) {
+router.get('/wechat/authorize', function (req, res) {
     wechat.authorize(req, res);
 });
 ```
@@ -57,7 +59,7 @@ var authorizeUrl = wechat.authorizeUrl();
 使用示例。方法返回promise。
 ```javascript
 /* listen wechat callback. */
-router.all('/wecaht/callback', function (req, res) {
+router.all('/wechat/callback', function (req, res) {
     wechat.callback(req, res).then(function (result) {
             var user = {
                 openid    : result.openid,
